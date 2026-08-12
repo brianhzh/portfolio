@@ -9,7 +9,7 @@ export const profile = {
   email: 'brianhzhang6@gmail.com',
   github: 'https://github.com/brianhzh',
   linkedin: 'https://linkedin.com/in/brianhzhang6',
-  resume: 'https://drive.google.com/file/d/1hba5ATnFr7qiyjpAAYNyPo5G6be-f-eg/view?usp=sharing'
+  resume: 'https://drive.google.com/file/d/1jUUQWAhenamtEq5vdVI2hmExME4zFDQX/view?usp=sharing'
 }
 
 export const experience = [
@@ -18,8 +18,8 @@ export const experience = [
     org: 'Waterloo BioMechatronics',
     period: 'September 2025 — Present',
     bullets: [
-      'Trained a lower-body exoskeleton in NVIDIA Isaac Sim using a deep reinforcement learning architecture',
-      'Designed data pipeline for encoders and IMUs, implementing a low-pass Butterworth filter to ensure consistent data',
+      'Designed a real-time data pipeline in Python for processing IMU sensor and encoder streams from a lower-body exoskeleton',
+      'Developed architecture for a DDPG reinforcement learning policy for adaptive gait control from scratch and trained using NVIDIA Isaac Sim',
     ],
   },
   {
