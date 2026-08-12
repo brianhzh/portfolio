@@ -80,20 +80,20 @@ main {
   50%  { transform: translate(3vmax, -65vh) scale(0.9, 1.15); }
   100% { transform: translate(-5vmax, -120vh) scale(1.1, 0.9); }
 }
-
 /* …and six blobs: lane-mates share a lane but not a speed, so the small
    one periodically overtakes the big one and they merge, then split */
-.blob-0 { width: 27vmax; height: 25vmax; left: 10%;
+
+.blob-0 { width: 92.5vmax; height: 62.5vmax; left: 10%;
           animation: rise-a 23s ease-in-out infinite alternate; animation-delay: -4s; }
-.blob-1 { width: 19vmax;  height: 20vmax; left: 16%;
+.blob-1 { width: 47.5vmax;  height: 50vmax; left: 16%;
           animation: rise-b 15s ease-in-out infinite alternate; animation-delay: -9s; }
-.blob-2 { width: 23vmax; height: 26vmax; left: 44%;
+.blob-2 { width: 57.5vmax; height: 65vmax; left: 44%;
           animation: rise-c 27s ease-in-out infinite alternate; animation-delay: -13s; }
-.blob-3 { width: 18vmax;  height: 18vmax;  left: 49%;
+.blob-3 { width: 45vmax;  height: 45vmax;  left: 49%;
           animation: rise-a 17s ease-in-out infinite alternate; animation-delay: -2s; }
-.blob-4 { width: 28vmax; height: 26vmax; left: 74%;
+.blob-4 { width: 70vmax; height: 65vmax; left: 74%;
           animation: rise-b 29s ease-in-out infinite alternate; animation-delay: -17s; }
-.blob-5 { width: 22vmax; height: 29vmax;  left: 80%;
+.blob-5 { width: 55vmax; height: 72.5vmax;  left: 80%;
           animation: rise-c 19s ease-in-out infinite alternate; animation-delay: -7s; }
 
 /* paper grain — inline SVG turbulence, multiply so it only darkens slightly */
@@ -183,7 +183,7 @@ main {
   display: flex; align-items: center; gap: 0.5rem;
 }
 .pulse {
-  width: 6px; height: 6px; background: var(--acc); border-radius: 50%;
+  width: 6px; height: 6px; background: #0e9b72; border-radius: 50%;
   animation: pulse 2.4s ease-in-out infinite;
 }
 @keyframes pulse { 50% { opacity: 0.25; } }

@@ -5,12 +5,11 @@ export const profile = {
   last: 'Zhang',
   mark: 'flying', // decorative corner text
   role: 'biomedical engineering · machine learning',
-  intro:
-    '',
   status: 'open to opportunities · winter 2027',
   email: 'brianhzhang6@gmail.com',
   github: 'https://github.com/brianhzh',
   linkedin: 'https://linkedin.com/in/brianhzhang6',
+  resume: 'https://drive.google.com/file/d/1hba5ATnFr7qiyjpAAYNyPo5G6be-f-eg/view?usp=sharing'
 }
 
 export const experience = [
@@ -28,9 +27,7 @@ export const experience = [
     org: 'WATOLINK',
     period: 'Apr 2026 — Present',
     bullets: [
-      '',
-      '',
-      '',
+      'away on co-op'
     ],
   },
   {
@@ -38,9 +35,9 @@ export const experience = [
     org: 'Spectrum Dynamics Medical',
     period: 'May 2026 — Aug 2026',
     bullets: [
-      'Developed a medical imaging pipeline integrating DICOM metadata QC and nnU-Net segmentation',
-      'Retrained nnUNet segmentation models for 15+ protocols, achieving average Dice of 0.935',
-      'Containerized modules using Docker and deployed as CUDA ensemble for API inference via a Python package',
+      'Spearheaded the design and development of a medical image processing pipeline for comprehensive segmentation of CT images',
+      'Trained nnU-Net segmentation models for 240+ structures via 5-fold cross-validation, validated against 10+ metrics achieving average Dice of 0.85',
+      'Deployed an end-to-end system in C++ for DICOM images to serve 12 models and ensure PACS interoperability',
     ],
   },
 ]
@@ -56,10 +53,10 @@ export const works = [
   },
   {
     id: '',
-    title: 'neu2real',
-    line: 'web-based sandbox simulation using neurons as building blocks to complete tasks',
-    tags: ['svelte', 'supabase', 'fastapi', 'brian2'],
-    repo: '',
+    title: 'FlowState',
+    line: 'AI Chrome extension to detect user confusion and simplify complex content',
+    tags: ['typescript'],
+    repo: 'https://github.com/brianhzh/flowstate',
   },
   {
     id: '',

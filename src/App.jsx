@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { FaGithub, FaLinkedinIn, FaEnvelope } from 'react-icons/fa6'
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaFileLines } from 'react-icons/fa6'
 import { profile, works, experience, tagColors } from './data.js'
 
 // Two colorways = the two "templates". ?theme=lilac in the URL or the
@@ -24,6 +24,7 @@ const LINKS = [
   { label: 'github', href: profile.github, Icon: FaGithub },
   { label: 'linkedin', href: profile.linkedin, Icon: FaLinkedinIn },
   { label: 'email', href: `mailto:${profile.email}`, Icon: FaEnvelope },
+  { label: 'resume', href: profile.resume, Icon: FaFileLines },
 ]
 
 export default function App() {
@@ -87,7 +88,7 @@ export default function App() {
             <button
               className={tab === 'work' ? 'on' : ''}
               onClick={() => setTab('work')}
-            >selected work</button>
+            >projects</button>
             <span className="tab-rail" aria-hidden="true" />
             <button
               className={tab === 'experience' ? 'on' : ''}
